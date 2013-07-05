@@ -1,4 +1,4 @@
-Changed the title of the message
+Changed the title of this message
 =================================
 
 Now in this problem we will add two numbers and return the result.
@@ -10,5 +10,3 @@ Now in this problem we will add two numbers and return the result.
        $ python add.py
 
        We made one more change in this example.
-
-End of file.
