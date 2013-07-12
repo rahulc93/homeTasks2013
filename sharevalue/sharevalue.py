@@ -28,10 +28,11 @@ def main(nasdaq):
     get_value(sys.argv[1])  # calls the 'get_value' method, passing to it the first command line parameter as argument
 
 
-if len(sys.argv) != 2:  # incorrect syntax for executing the program from command line
-    print 'Wrong syntax. '  # display error message
-    sys.exit(-1)  # abnormal termination
-else:  #syntax is ok
-    main(sys.argv[1])  # pass the NASDAQ code to main given by user
-sys.exit(0)  # successful termination
+if __name__ == '__main__':
+    if len(sys.argv) != 2:  # incorrect syntax for executing the program from command line
+        print 'Wrong syntax. '  # display error message
+        sys.exit(-1)  # abnormal termination
+    else:  #syntax is ok
+        main(sys.argv[1])  # pass the NASDAQ code to main given by user
+    sys.exit(0)  # successful termination
 
