@@ -69,6 +69,6 @@ To run this script, follow the steps.
 
 *Alternatively*, you can also do::
 
-        $ python mount.py
+        $ python sharevalue.py
 
 
